@@ -646,4 +646,7 @@ function printDocument() {
 }
 
 // Inicializar quando o DOM estiver carregado
-document.addEventListener("DOMContentLoaded", carregarDados);
+document.addEventListener("DOMContentLoaded", async () => {
+  // Carregar dados originais
+  await carregarDados();
+});
