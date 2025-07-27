@@ -12,6 +12,7 @@
         "keywords": "Quality Assurance (QA), Test Automation, Shift-left Testing, Agile (Scrum, Kanban), Gherkin, Robot Framework, PRISMA, CTFL Techniques, ISO/IEC/IEEE 29119, Test Case Design, Defect Management, Dashboard Development, Ownership, Continuous Improvement, Functional Testing, Exploratory Testing, Regression Testing, Bug Reporting.",
         "github": "https://github.com/matteusbonotto",
         "linkedin": "https://linkedin.com/in/matheusbonotto",
+        "apresentacao": "https://short-link.me/13xLo",
         "email": "contato@matheusbonotto.com.br",
         "telefone": "+55 (19) 99591-0737",
         "hardSkills": 
@@ -50,17 +51,17 @@
             "instituicao": "VINCIT",
             "curso": "Teste de Software",
             "tipo": "Lato Sensu",
-            "inicio": "01/01/2024",
-            "fim": "",
-            "atual": true,
+            "inicio": "01/03/2023",
+            "fim": "01/08/2023",
+            "atual": false,
             "descricao": "Especialização em Teste de Software com foco em metodologias avançadas de QA."
         },
         {
-            "instituicao": "UNASP - Centro Universitário Adventista de São Paulo",
+            "instituicao": "UNASP",
             "curso": "Sistemas de Informação",
             "tipo": "Bacharelado",
-            "inicio": "01/01/2018",
-            "fim": "31/12/2023",
+            "inicio": "01/08/2018",
+            "fim": "01/12/2022",
             "atual": false,
             "descricao": "Formação completa em desenvolvimento de sistemas, análise de requisitos e gestão de projetos de TI."
         },
@@ -68,8 +69,8 @@
             "instituicao": "SENAC",
             "curso": "Técnico em Informática",
             "tipo": "Técnico",
-            "inicio": "01/01/2015",
-            "fim": "31/12/2017",
+            "inicio": "01/08/2016",
+            "fim": "01/09/2018",
             "atual": false,
             "descricao": "Formação técnica em informática com foco em hardware, software e redes."
         }
@@ -145,6 +146,12 @@
             "nivel": "B1 - Intermediário",
             "cursando": true,
             "instituicao": "Open English"
+        },
+        {
+            "idioma": "Espanhol",
+            "nivel": "Básico",
+            "cursando": false,
+            "instituicao": ""
         }
     ],
     "certificacoes": 

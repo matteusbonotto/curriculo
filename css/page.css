@@ -18,10 +18,11 @@
 
 .a4-page {
     width: 21cm;
-    height: 37cm; /*##########   Altura da pagina*/
+    height: 37cm;
+    /*##########   Altura da pagina*/
     background: white;
     margin: 20px auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
     padding: 2.5cm 2cm 2cm 2cm;
     page-break-after: always;
@@ -44,8 +45,9 @@
     align-items: center;
     justify-content: center;
     font-size: 9pt;
-    color: #666;;
-    
+    color: #666;
+    ;
+
 }
 
 .person-header {
@@ -105,8 +107,7 @@
 }
 
 .qr-code-header {
-    margin-left:30px;
-    width: 80px;
+    width: 100px;
     object-fit: contain;
 }
 
@@ -187,8 +188,9 @@
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
     }
-    
-    html, body {
+
+    html,
+    body {
         width: 210mm;
         height: 297mm;
         margin: 0;
@@ -197,7 +199,7 @@
         background: white !important;
         overflow: visible;
     }
-    
+
     .a4-page {
         width: 210mm !important;
         height: 297mm !important;
@@ -210,19 +212,19 @@
         position: relative !important;
         overflow: visible !important;
     }
-    
+
     .a4-page:last-child {
         page-break-after: avoid !important;
     }
-    
+
     .page-header {
         display: none !important;
     }
-    
+
     .person-header {
         display: none !important;
     }
-    
+
     #page1 .person-header {
         display: block !important;
         position: absolute !important;
@@ -278,12 +280,12 @@
         font-size: 8pt !important;
         color: #333 !important;
     }
-    
+
     #page1 #curriculum-content-1 {
         margin-top: 15mm !important;
         padding-top: 5mm !important;
     }
-    
+
     .page-footer {
         position: absolute !important;
         bottom: 5mm !important;
@@ -300,16 +302,16 @@
         padding-top: 2mm !important;
         background: white !important;
     }
-    
+
     .page-footer .page-number {
         font-weight: bold !important;
         color: #333 !important;
     }
-    
+
     .controls-container {
         display: none !important;
     }
-    
+
     /* Remover padding das colunas Bootstrap na impressão */
     .a4-page .col-6,
     .a4-page .col-12,
@@ -328,7 +330,7 @@
     .person-header .row {
         --bs-gutter-x: 0 !important;
     }
-    
+
     .curriculum-section,
     .experience-item,
     .education-item,
@@ -338,7 +340,7 @@
         page-break-inside: avoid !important;
         break-inside: avoid !important;
     }
-    
+
     @page {
         size: A4 portrait !important;
         margin: 0 !important;
