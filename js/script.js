@@ -120,15 +120,17 @@ function createPageHeader(data) {
 // Função para criar cabeçalho com informações pessoais (apenas primeira página)
 function createPersonHeader(data) {
   const idade = calcularIdade(data.individuo.dataNasc);
-  const qrCodeUrl = generateQRCode("https://matheusbonotto.com.br/curriculo/index.html");
+  const qrCodeUrl = generateQRCode("https://beatrizbonotto.github.io/curriculo/");
 
   return `
         <div class="person-header">
             <div class="row">
                 <div class="col-5">
-                    <div class="name-title">${data.individuo.nomeCompleto}</div>
+                    <div class="name-title">${data.individuo.nomeCompleto
+    } <span class="age">(${idade} ${getSectionTitle(
+      "anos"
+    )})</span></div>
                     <div class="occupation">${data.individuo.ocupacao}</div>
-                    <span class="age">(${idade} ${getSectionTitle("anos")})</span>
                 </div>
                 <div class="col-7">
                     <div class="contact-info-container">
@@ -136,12 +138,18 @@ function createPersonHeader(data) {
                             <img src="${qrCodeUrl}" alt="QR Code" class="qr-code-header">
                         </div>
                         <div class="contact-info">
-                            <i class="bi bi-envelope"></i> <a href="mailto:${data.individuo.email}">${data.individuo.email}</a><br>
-                            <i class="bi bi-whatsapp"></i> <a href="https://wa.me/${data.individuo.telefone.replace(/\D/g, "")}">${data.individuo.telefone}</a><br>
-                            <i class="bi bi-github"></i> <a href="${data.individuo.github}" target="_blank">${data.individuo.github}</a><br>
-                            <i class="bi bi-linkedin"></i> <a href="${data.individuo.linkedin}" target="_blank">${data.individuo.linkedin}</a><br>
-                            <i class="bi bi-file-earmark-text"></i> <a href="${data.individuo.apresentacao}" target="_blank">${data.individuo.apresentacao}</a> <small>(apresentação)</small><br>
-                            <i class="bi bi-geo-alt"></i> ${data.individuo.local}, ${data.individuo.pais}
+                            <i class="bi bi-envelope"></i> <a href="mailto:${data.individuo.email
+    }">${data.individuo.email}</a><br>
+                            <i class="bi bi-whatsapp"></i> <a href="https://wa.me/${data.individuo.telefone.replace(
+      /\D/g,
+      ""
+    )}">${data.individuo.telefone}</a><br>
+                            <i class="bi bi-github"></i> <a href="${data.individuo.github
+    }" target="_blank">${data.individuo.github}</a><br>
+                            <i class="bi bi-linkedin"></i> <a href="${data.individuo.linkedin
+    }" target="_blank">${data.individuo.linkedin}</a><br>
+                            <i class="bi bi-geo-alt"></i> ${data.individuo.local
+    }, ${data.individuo.pais}
                         </div>
                     </div>
                 </div>
@@ -363,14 +371,17 @@ async function generateContentSections(data) {
       educacaoHTML += `
                 <div class="education-item">
                     <div class="education-header">
-                        <h3 class="education-title">${edu.curso} | ${edu.instituicao
-        } | ${edu.tipo} </h3>
+                        <h3 class="education-title">${edu.curso}</h3>
                         <p class="education-period">${dataInicio} - ${dataFim}</p>
                     </div>
                     <div class="education-details">
-
+                        <span class="education-institution">${edu.instituicao
+        }</span> | 
+                        <span class="education-type">${edu.tipo}</span>
                         ${edu.atual
-          ? `<span>${getSectionTitle("cursando")}</span>`
+          ? `<span>${getSectionTitle(
+            "cursando"
+          )}</span>`
           : ""
         }
                     </div>
@@ -396,12 +407,14 @@ async function generateContentSections(data) {
       idiomasHTML += `
                 <div class="language-item">
                     <div class="language-header">
-                        <span class="language-title">${idioma.idioma} | ${idioma.nivel
-        } ${idioma.cursando
-          ? `${getSectionTitle("- cursando")} | ${idioma.instituicao ? `${idioma.instituicao}` : ""
-          }`
+                        <span class="language-title">${idioma.idioma}</span>
+                        <span class="language-level">${idioma.nivel}</span>
+                        ${idioma.cursando ? `<span class="language-level">${getSectionTitle("cursando")}</span>` : ""
+        }
+                            ${idioma.instituicao
+          ? `<div class="language-instituicao">${idioma.instituicao}</div>`
           : ""
-        }</span>
+        } 
                     </div>
                 </div>
             `;
@@ -412,54 +425,54 @@ async function generateContentSections(data) {
   }
 
   // Seção Certificações
-  // if (certificacoes && certificacoes.length > 0) {
-  //   let certHTML = `
-  //           <div class="curriculum-section">
-  //               <h2>${getSectionTitle("certificacoes")}</h2>
-  //       `;
+  if (certificacoes && certificacoes.length > 0) {
+    let certHTML = `
+            <div class="curriculum-section">
+                <h2>${getSectionTitle("certificacoes")}</h2>
+        `;
 
-  //   certificacoes.forEach((cert) => {
-  //     certHTML += `
-  //               <div class="certification-item">
-  //                   <div class="certification-name">${cert.nome} | ${cert.instituicao}</div>
-  //                   <div class="certification-details">
-  //                       ${cert.data} | ${cert.validade}
-  //                   </div>
-  //               </div>
-  //           `;
-  //   });
+    certificacoes.forEach((cert) => {
+      certHTML += `
+                <div class="certification-item">
+                    <div class="certification-name">${cert.nome} | ${cert.instituicao}</div>
+                    <div class="certification-details">
+                        ${cert.data} | ${cert.validade}
+                    </div>
+                </div>
+            `;
+    });
 
-  //   certHTML += `</div>`;
-  //   sections.push(certHTML);
-  // }
+    certHTML += `</div>`;
+    sections.push(certHTML);
+  }
 
   // Seção Projetos Relevantes
-  // if (projetos && projetos.length > 0) {
-  //   let projetosHTML = `
-  //           <div class="curriculum-section">
-  //               <h2>${getSectionTitle("projetosRelevantes")}</h2>
-  //       `;
+  if (projetos && projetos.length > 0) {
+    let projetosHTML = `
+            <div class="curriculum-section">
+                <h2>${getSectionTitle("projetosRelevantes")}</h2>
+        `;
 
-  //   projetos.forEach((projeto) => {
-  //     projetosHTML += `
-  //               <div class="project-item">
-  //                   <div class="project-header">
-  //                       <h3 class="project-title">${projeto.nome}</h3>
-  //                       <p class="project-period">${projeto.data}</p>
-  //                   </div>
-  //                   <div class="project-technologies">
-  //                       ${projeto.tecnologias.join(", ")}
-  //                   </div>
-  //                   <div class="project-description">
-  //                       <p>${projeto.descricao}</p>
-  //                   </div>
-  //               </div>
-  //           `;
-  //   });
+    projetos.forEach((projeto) => {
+      projetosHTML += `
+                <div class="project-item">
+                    <div class="project-header">
+                        <h3 class="project-title">${projeto.nome}</h3>
+                        <p class="project-period">${projeto.data}</p>
+                    </div>
+                    <div class="project-technologies">
+                        ${projeto.tecnologias.join(", ")}
+                    </div>
+                    <div class="project-description">
+                        <p>${projeto.descricao}</p>
+                    </div>
+                </div>
+            `;
+    });
 
-  //   projetosHTML += `</div>`;
-  //   sections.push(projetosHTML);
-  // }
+    projetosHTML += `</div>`;
+    sections.push(projetosHTML);
+  }
 
   return sections;
 }
@@ -507,16 +520,16 @@ function printDocument() {
   document.body.classList.add("printing");
 
   // Forçar renderização de todas as páginas
-  const pages = document.querySelectorAll(".a4-page");
-  pages.forEach((page) => {
-    page.style.display = "block";
-    page.style.pageBreakAfter = "always";
-    page.style.pageBreakInside = "avoid";
+  const pages = document.querySelectorAll('.a4-page');
+  pages.forEach(page => {
+    page.style.display = 'block';
+    page.style.pageBreakAfter = 'always';
+    page.style.pageBreakInside = 'avoid';
   });
 
   // Garantir que a última página não tenha quebra após
   if (pages.length > 0) {
-    pages[pages.length - 1].style.pageBreakAfter = "avoid";
+    pages[pages.length - 1].style.pageBreakAfter = 'avoid';
   }
 
   // Otimizar para PDF
@@ -526,13 +539,12 @@ function printDocument() {
     const originalViewport = viewport ? viewport.content : null;
 
     if (viewport) {
-      viewport.content =
-        "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no";
+      viewport.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';
     }
 
     // Configurar estilos temporários para impressão
-    const printStyles = document.createElement("style");
-    printStyles.id = "temp-print-styles";
+    const printStyles = document.createElement('style');
+    printStyles.id = 'temp-print-styles';
     printStyles.textContent = `
       @media print {
         @page {
@@ -579,7 +591,7 @@ function printDocument() {
         document.body.classList.remove("printing");
 
         // Remover estilos temporários
-        const tempStyles = document.getElementById("temp-print-styles");
+        const tempStyles = document.getElementById('temp-print-styles');
         if (tempStyles) {
           tempStyles.remove();
         }
@@ -602,7 +614,7 @@ function printDocument() {
         document.body.classList.remove("printing");
 
         // Remover estilos temporários
-        const tempStyles = document.getElementById("temp-print-styles");
+        const tempStyles = document.getElementById('temp-print-styles');
         if (tempStyles) {
           tempStyles.remove();
         }

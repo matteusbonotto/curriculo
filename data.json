@@ -1,193 +1,186 @@
 {
     "individuo": 
     {
-        "primeiroNome": "Matheus",
-        "sobrenome": "Bonotto",
-        "nomeCompleto": "Matheus Bonotto",
-        "dataNasc": "11/08/1998",
+        "primeiroNome": "Beatriz",
+        "sobrenome": "Souza",
+        "nomeCompleto": "Beatriz Souza",
         "local": "Campinas-SP",
         "pais": "Brasil",
-        "ocupacao": "QA (Quality Assurance)",
-        "descricao": "QA com experiência em testes manuais e automação para clientes como Samsung, Americanas SA, fintechs como Bankeiro e, atualmente, Cinemark LATAM. Atuo com metodologias ágeis (Scrum, Kanban) e práticas de Shift-left Testing, utilizando Gherkin, Robot Framework e priorização PRISMA. Tenho domínio na criação de casos de teste, aplicação de técnicas reconhecidas pelo CTFL e documentação conforme a norma ISO/IEC/IEEE 29119. Possuo espírito de equipe, senso de ownership e também desenvolvo dashboards e planilhas avançadas para apoiar a gestão da qualidade. Sou apaixonado por inovação e busco constantemente contribuir com meus conhecimentos, além de aprender para evoluir pessoalmente e impulsionar os projetos dos quais faço parte. Formado em Tecnologia da Informação, com pós-graduação em QA. Atualmente, estudo inglês pela Open English.",
-        "keywords": "Quality Assurance (QA), Test Automation, Shift-left Testing, Agile (Scrum, Kanban), Gherkin, Robot Framework, PRISMA, CTFL Techniques, ISO/IEC/IEEE 29119, Test Case Design, Defect Management, Dashboard Development, Ownership, Continuous Improvement, Functional Testing, Exploratory Testing, Regression Testing, Bug Reporting.",
-        "github": "https://github.com/matteusbonotto",
-        "linkedin": "https://linkedin.com/in/matheusbonotto",
-        "apresentacao": "https://short-link.me/13xLo",
-        "email": "contato@matheusbonotto.com.br",
-        "telefone": "+55 (19) 99591-0737",
+        "ocupacao": "Analista de Seguros",
+        "descricao": "Profissional com mais de 5 anos de experiência na área administrativa, formada em Administração de Empresas e com experiência técnica em Serviços Administrativos e Gestão de Negócios. Atuação sólida em rotinas administrativas, atendimento ao cliente, organização de processos e análise de dados, com expertise em melhorias contínuas e suporte operacional.",
+        "keywords": "Administração, Atendimento ao Cliente, Seguros, Cotações, Gestão de Processos, Excel, Organização, Comunicação Assertiva, resolução de problemas, habilidades analíticas.",
+        "linkedin": "https://linkedin.com/in/beatrizsouza-adm",
+        "dataNasc": "1998-03-14",
+        "github": "https://github.com/BeatrizBonotto/",
+        "email": "beatrizsouzag@outlook.com",
+        "telefone": "+55 (19) 99103-5924",
         "hardSkills": 
         [
-            "Planejamento de Testes",
-            "Testes Funcionais",
-            "Testes de Sistema",
-            "Testes de Regressão",
-            "Testes Exploratórios",
-            "Automação de Testes",
-            "Cypress",
-            "Robot Framework",
-            "API REST",
-            "Capacidade Analítica",
-            "Excel Avançado",
-            "Power BI",
-            "Scrum",
-            "Jira",
-            "Orientado a Resultados"
+            "Administração",
+            "Atendimento ao Cliente",
+            "Análise de Seguros",
+            "Cotações de Seguros",
+            "Gestão de Carteira de Clientes",
+            "Microsoft Excel",
+            "Emissão de Apólices",
+            "Renovação de Seguros",
+            "Análise de Riscos",
+            "Gestão de Processos Administrativos"
         ],
         "softSkills": 
         [
-            "Solução de Problemas Técnicos",
-            "Comunicação Efetiva",
-            "Trabalho em Equipe",
-            "Pensamento Analítico",
-            "Adaptabilidade",
-            "Orientação para Resultados",
-            "Aprendizado Contínuo",
-            "Organizado"
+            "Gestão de tempo",
+            "Habilidades analíticas",
+            "Organização",
+            "Comunicação assertiva",
+            "Pensamento estratégico"
         ]
     },
     "historicoAcademico": 
     [
         {
-            "instituicao": "VINCIT",
-            "curso": "Teste de Software",
-            "tipo": "Lato Sensu",
-            "inicio": "01/03/2023",
-            "fim": "01/08/2023",
-            "atual": false,
-            "descricao": "Especialização em Teste de Software com foco em metodologias avançadas de QA."
-        },
-        {
-            "instituicao": "UNASP",
-            "curso": "Sistemas de Informação",
-            "tipo": "Bacharelado",
-            "inicio": "01/08/2018",
-            "fim": "01/12/2022",
-            "atual": false,
-            "descricao": "Formação completa em desenvolvimento de sistemas, análise de requisitos e gestão de projetos de TI."
-        },
-        {
-            "instituicao": "SENAC",
-            "curso": "Técnico em Informática",
+            "instituicao": "Politécnica Brasileira",
+            "curso": "Técnico em Informática para Internet",
             "tipo": "Técnico",
-            "inicio": "01/08/2016",
-            "fim": "01/09/2018",
+            "inicio": "01/11/2023",
+            "fim": "01/05/2025",
             "atual": false,
-            "descricao": "Formação técnica em informática com foco em hardware, software e redes."
+            "descricao": "Curso técnico voltado à formação prática e teórica em desenvolvimento web, com foco na criação de sites, sistemas e aplicações para internet. Abrange linguagens como HTML, CSS, JavaScript, lógica de programação, design responsivo e banco de dados, metodologias ágeis e testes de software."
+        },
+        {
+            "instituicao": "Anhanguera Educacional",
+            "curso": "Administração de Empresas",
+            "tipo": "Bacharelado",
+            "inicio": "01/06/2019",
+            "fim": "01/06/2023",
+            "atual": false,
+            "descricao": "Formação superior com foco em gestão estratégica, finanças, recursos humanos, marketing, logística e planejamento empresarial. Desenvolveu habilidades para atuação em diferentes setores administrativos e corporativos."
+        },
+        {
+            "instituicao": "Senac Brasil",
+            "curso": "Serviços Administrativos",
+            "tipo": "Curso Técnico",
+            "inicio": "01/10/2015",
+            "fim": "01/10/2016",
+            "atual": false,
+            "descricao": "Curso profissionalizante voltado ao desenvolvimento de competências em rotinas administrativas, atendimento ao cliente, organização de documentos e utilização de ferramentas de escritório."
+        },
+        {
+            "instituicao": "Senac Brasil",
+            "curso": "Gestão de Negócios",
+            "tipo": "Curso Técnico",
+            "inicio": "01/10/2013",
+            "fim": "01/10/2014",
+            "atual": false,
+            "descricao": "Curso com foco na introdução a práticas de gestão empresarial, planejamento estratégico, empreendedorismo, marketing e operações. Preparação para atuar em funções administrativas de apoio à gestão."
         }
     ],
     "historicoProfissional": 
     [
         {
-            "instituicao": "Mb labs",
-            "titulo": "Quality assurance",
-            "regime": "PJ",
+            "instituicao": "Dínamo Seguros",
+            "titulo": "Analista de Seguros PL",
+            "regime": "CLT",
             "local": "Campinas-SP",
-            "tipoLocal": "Hibrido",
-            "descricao": "Atuo como QA no modelo PJ, contribuindo para a qualidade de produtos digitais em empresas como Bankeiro, Trinus, Vinci Partners e atualmente Cinemark LATAM. Sigo a abordagem de Shift-left Testing, participando das cerimonias scrum, também tenho participação desde o início dos projetos para antecipar riscos e elevar a qualidade final. Realizo testes manuais e automatizados com Gherkin e Robot Framework, priorizando com PRISMA. Para contribuir, Também uso dos meus conhecimentos em criar planilhas e dashboards para apoiar a gestão da qualidade, utilizando ferramentas como Azure DevOps e Jira, sempre em ambiente ágil (Scrum). Tenho foco em comunicação clara, entregas pontuais e identificação eficiente de bugs, garantindo mais confiança no produto final.",
-            "inicio": "01/04/2024",
-            "fim": "",
+            "tipoLocal": "Presencial",
+            "descricao": "Realizo cotações de seguros novos e renovações de todo ramo elementar. Administro seguros da carteira de clientes de imobiliárias parceiras. Faço atendimento ao cliente, fechamento de seguros, acompanhamento de emissões e resoluções com seguradoras.",
+            "inicio": "01/08/2025",
+            "fim": null,
             "atual": true
         },
         {
-            "instituicao": "Americanas S.A.",
-            "titulo": "Técnico de Garantia de Qualidade",
+            "instituicao": "Dínamo Seguros",
+            "titulo": "Auxiliar Administrativa",
             "regime": "CLT",
-            "local": "Vitória-ES",
-            "tipoLocal": "Remoto",
-            "descricao": "Atuei realizando testes funcionais com a metodologia Scrum utilizando Jira. Mantive-me atualizado sobre regras de negócio, atualizei documentos executando testes exploratórios e regressivos para identificar e reportar bugs. Implementei automação de testes com Cypress e Robot Framework.",
-            "inicio": "01/06/2022",
-            "fim": "31/12/2023",
+            "local": "Campinas-SP",
+            "tipoLocal": "Presencial",
+            "descricao": "Realizo cotações de seguros novos e renovações de todo ramo elementar. Administro seguros da carteira de clientes de imobiliárias parceiras. Faço atendimento ao cliente, fechamento de seguros, acompanhamento de emissões e resoluções com seguradoras.",
+            "inicio": "01/11/2020",
+            "fim": null,
             "atual": false
         },
         {
-            "instituicao": "SiDi",
-            "titulo": "Quality Assurance Test",
+            "instituicao": "Dínamo Seguros",
+            "titulo": "Estagiária Administrativa",
             "regime": "Estágio",
             "local": "Campinas-SP",
-            "tipoLocal": "Híbrido",
-            "descricao": "Adquiri experiência em metodologia ágil, atualizando e acompanhando os cards no JIRA. Criei casos de teste em BDD (Behavior Drive Development) e Gherkin para cobrir a sprint, realizei a execução de testes automáticos e exploratórios.",
+            "tipoLocal": "Presencial",
+            "descricao": "Emissão de boletos, controle de arquivos, envio de documentos e cotações de seguros. Auxílio nas demandas administrativas da empresa.",
             "inicio": "01/08/2020",
-            "fim": "31/06/2022",
+            "fim": "01/11/2020",
             "atual": false
         },
         {
-            "instituicao": "Realiza Software",
-            "titulo": "Desenvolvedor de Software",
+            "instituicao": "Instituto Nacional do Seguro Social (INSS)",
+            "titulo": "Estagiária Administrativa",
             "regime": "Estágio",
             "local": "Campinas-SP",
             "tipoLocal": "Presencial",
-            "descricao": "Estagiário em Desenvolvimento, prestei suporte e desenvolvimento em SAT e ERP com VB.NET e SQL.",
-            "inicio": "01/08/2019",
-            "fim": "31/03/2020",
+            "descricao": "Elaboração de memorandos e ofícios, emissão e digitalização de documentos, organização de arquivos de processos.",
+            "inicio": "01/04/2019",
+            "fim": "01/04/2020",
             "atual": false
         },
         {
-            "instituicao": "Crespo e Caires Advogados Associados",
-            "titulo": "Analista de Suporte Técnico",
-            "regime": "CLT",
-            "local": "Hortolândia-SP",
+            "instituicao": "Tecnoset",
+            "titulo": "Aprendiz Administrativa",
+            "regime": "Aprendiz",
+            "local": "Campinas-SP",
             "tipoLocal": "Presencial",
-            "descricao": "Atuei na área de suporte, auxiliando presencialmente os funcionários e realizando manutenção de computadores, impressoras e rede interna. Gerenciamento de estoque, licenças, materiais e equipamentos de informática e infraestrutura. Execução de formatações e montagem de máquinas.",
-            "inicio": "01/01/2016",
-            "fim": "31/08/2019",
+            "descricao": "Anexava documentos, atendia clientes, elaborava planilhas e apresentações, monitorava suprimentos e encerramento de atendimentos.",
+            "inicio": "01/10/2015",
+            "fim": "01/10/2016",
+            "atual": false
+        },
+        {
+            "instituicao": "Claro Brasil",
+            "titulo": "Aprendiz Administrativa",
+            "regime": "Aprendiz",
+            "local": "Campinas-SP",
+            "tipoLocal": "Presencial",
+            "descricao": "Criação de planilhas, suporte ao setor administrativo, organização de arquivos e inserção de dados em sistema.",
+            "inicio": "01/10/2013",
+            "fim": "01/10/2014",
             "atual": false
         }
     ],
     "idiomas": 
     [
-        {
-            "idioma": "Português",
-            "nivel": "Nativo",
-            "cursando": false,
-            "instituicao": ""
-        },
-        {
-            "idioma": "Inglês",
-            "nivel": "B1 - Intermediário",
-            "cursando": true,
-            "instituicao": "Open English"
-        },
-        {
-            "idioma": "Espanhol",
-            "nivel": "Básico",
-            "cursando": false,
-            "instituicao": ""
-        }
     ],
     "certificacoes": 
     [
         {
-            "nome": "Especialização em Teste de Software",
-            "instituicao": "VINCIT",
-            "data": "2024",
+            "nome": "Jornada da Inteligência Profissional",
+            "instituicao": "Plataforma online",
+            "data": "01/03/2023",
+            "validade": "Vitalícia"
+        },
+        {
+            "nome": "Produtividade Inteligente",
+            "instituicao": "Plataforma online",
+            "data": "01/01/2023",
+            "validade": "Vitalícia"
+        },
+        {
+            "nome": "Semana do Excel",
+            "instituicao": "Plataforma online",
+            "data": "01/05/2024",
+            "validade": "Vitalícia"
+        },
+        {
+            "nome": "Argumentação persuasiva",
+            "instituicao": "Plataforma online",
+            "data": "01/06/2023",
+            "validade": "Vitalícia"
+        },
+        {
+            "nome": "Comunicação e pensamento assertivo",
+            "instituicao": "Plataforma online",
+            "data": "01/06/2022",
             "validade": "Vitalícia"
         }
     ],
     "projetos": 
     [
-        {
-            "nome": "Automação de Testes - Americanas",
-            "descricao": "Implementação de automação de testes utilizando Cypress e Robot Framework para garantir qualidade dos produtos da Americanas S.A.",
-            "tecnologias": 
-            [
-                "Cypress",
-                "Robot Framework",
-                "JavaScript",
-                "Python"
-            ],
-            "data": "2022-2023"
-        },
-        {
-            "nome": "Casos de Teste em BDD",
-            "descricao": "Criação de casos de teste utilizando BDD (Behavior Drive Development) e Gherkin para cobertura de sprints em projetos ágeis.",
-            "tecnologias": 
-            [
-                "BDD",
-                "Gherkin",
-                "Jira",
-                "Scrum"
-            ],
-            "data": "2020-2022"
-        }
     ]
 }
