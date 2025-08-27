@@ -1,4 +1,4 @@
-# 🌍 Currículo Multilíngue - Matheus Bonotto
+# 🌍 Currículo Multilíngue
 
 Sistema completo de currículo dinâmico com tradução automática para múltiplos idiomas, desenvolvido com **JavaScript puro** e **Bootstrap**.
 
@@ -114,9 +114,9 @@ npm run serve
 ```json
 {
   "individuo": {
-    "nome": "Matheus Bonotto",
-    "ocupacao": "QA (Quality Assurance)",
-    "descricao": "QA com experiência em testes manuais e automação..."
+    "nome": "Beatriz Souza",
+    "ocupacao": "uxiliar Administrativa",
+    "descricao": "Sou formada em Administração e tenho mais de 5 anos de experiência na área administrativa..."
   }
 }
 ```
@@ -126,19 +126,13 @@ npm run serve
 {
   "individuo": {
     "nome": {
-      "pt-br": "Matheus Bonotto",
-      "en": "Matheus Bonotto",
-      "es": "Matheus Bonotto"
+      "pt-br": "Beatriz Souza",
     },
     "ocupacao": {
-      "pt-br": "QA (Quality Assurance)",
-      "en": "QA (Quality Assurance)",
-      "es": "QA (Control de Calidad)"
+      "pt-br": "Auxiliar ",
     },
     "descricao": {
       "pt-br": "QA com experiência em testes manuais e automação...",
-      "en": "QA with experience in manual and automated testing...",
-      "es": "QA con experiencia en pruebas manuales y automatizadas..."
     }
   }
 }
@@ -153,7 +147,6 @@ const LANGUAGES = {
     'pt-br': 'pt',
     'en': 'en',
     'es': 'es',
-    'fr': 'fr'  // Adicionar francês
 };
 ```
 
@@ -179,9 +172,9 @@ const LANGUAGES = {
 
 ## 🎨 Demonstração
 
-![Currículo em Português](https://via.placeholder.com/800x600/007bff/ffffff?text=Currículo+Português)
-![Currículo em Inglês](https://via.placeholder.com/800x600/28a745/ffffff?text=Currículo+English)
-![Currículo em Espanhol](https://via.placeholder.com/800x600/dc3545/ffffff?text=Currículo+Español)
+[Currículo em Português](assets/curriculos/ptbr.pdf)
+[Currículo em Inglês](assets/curriculos/en.pdf)
+[Currículo em Espanhol](assets/curriculos/es.pdf)
 
 ## 🚦 Solução de Problemas
 
@@ -212,7 +205,7 @@ MIT License - Use livremente em seus projetos!
 
 ---
 
-**Desenvolvido com ❤️ por Matheus Bonotto**
+**Creditos a Matheus Bonotto por desenvolver este projeto**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/matheusbonotto)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/matteusbonotto)

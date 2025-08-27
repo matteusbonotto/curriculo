@@ -409,13 +409,17 @@ async function generateContentSections(data) {
                     <div class="language-header">
                         <span class="language-title">${idioma.idioma}</span>
                         <span class="language-level">${idioma.nivel}</span>
-                        ${idioma.cursando ? `<span class="language-level">${getSectionTitle("cursando")}</span>` : ""
+                        ${idioma.cursando
+          ? `<span>${getSectionTitle(
+            "cursando"
+          )}</span>`
+          : ""
         }
-                            ${idioma.instituicao
+                    </div>
+                    ${idioma.instituicao
           ? `<div class="language-instituicao">${idioma.instituicao}</div>`
           : ""
-        } 
-                    </div>
+        }
                 </div>
             `;
     });
