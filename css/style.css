@@ -153,7 +153,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
     /* NAVBAR FIXED NO TOPO - MOBILE */
     .controls-container {
         position: fixed !important;
@@ -164,7 +163,7 @@
         margin: 0 !important;
         padding: 0.75rem !important;
         background-color: white !important;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
         z-index: 1000 !important;
         display: flex !important;
         flex-direction: row !important;
@@ -177,6 +176,7 @@
     .language-dropdown,
     .print-button {
         flex: 1 !important;
+        width: 48% !important;
         font-size: 0.9rem !important;
         padding: 0.6rem !important;
         height: 40px !important;
